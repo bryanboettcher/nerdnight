@@ -46,7 +46,8 @@ void teststext(void) {
   display.println(actual_knob_value);
   display.display();      // Show initial text
 
-
+  strip.clear();
+  
   strip.setPixelColor(
     actual_knob_value,
     255,
